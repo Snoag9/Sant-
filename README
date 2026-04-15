@@ -1,0 +1,19 @@
+Dashboard d'Analyse de la Santé en France (2015-2023)
+
+Ce projet est une application interactive permettant d'explorer les disparités de santé en France à partir des données de l'Assurance Maladie (CNAM).
+
+Fonctionnalités
+- Analyse de 50+ pathologies (Diabète, Cancers, COVID, etc.).
+- Visualisation Démographique** : Graphiques de prévalence par âge et sexe.
+- Cartographie Interactive** : Répartition géographique par département (Métropole + DROM).
+- Filtrage Temporel : Évolution des données de 2015 à 2023.
+
+Stack Technique
+- Langage : Python 3.x
+- Librairies : Pandas (Data Cleaning), Plotly (Dataviz), Streamlit (Interface Web).
+- Données : Open Data CNAM (5,2 millions de lignes analysées).
+Installation
+1. Cloner le dépôt : `git clone https://github.com/TON_PSEUDO/DataSante.git`
+2. Installer les dépendances : `pip install -r requirements.txt`
+3. Télécharger le jeu de données `effectifs.csv` sur [data.gouv.fr](https://www.data.gouv.fr/) et le placer à la racine.
+4. Lancer l'application : `streamlit run app.py`
