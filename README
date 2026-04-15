@@ -13,7 +13,7 @@ Stack Technique
 - Librairies : Pandas (Data Cleaning), Plotly (Dataviz), Streamlit (Interface Web).
 - Données : Open Data CNAM (5,2 millions de lignes analysées).
 Installation
-1. Cloner le dépôt : `git clone https://github.com/TON_PSEUDO/DataSante.git`
+1. Cloner le dépôt : `git clone https://github.com/Snoag9/Sant-.git`
 2. Installer les dépendances : `pip install -r requirements.txt`
 3. Télécharger le jeu de données `effectifs.csv` sur [data.gouv.fr](https://www.data.gouv.fr/) et le placer à la racine.
 4. Lancer l'application : `streamlit run app.py`
